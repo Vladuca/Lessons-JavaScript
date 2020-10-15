@@ -19,9 +19,14 @@ let resultMsg = null,
     actorMst = "",
     age = 0;
 resultMsg = helloMsg + userFirstName + spaceMsg + userSecondName + doAnBreak; //операторы;
-if(isActor){
-    
+resultMsg += isActor ? mainMassage + "actor" : mainMassage + "is not actor";
+/*if (isActor) {
+    resultMsg += mainMassage + "actor";
 }
+else {
+    resultMsg += mainMassage + "is not actor";
+}*/
+
 console.log(resultMsg);
 
 
